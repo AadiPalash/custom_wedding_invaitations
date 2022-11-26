@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Wedding Invaitation Part */
+.invaitation_banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    /* background-color: #e1f3ca60; */
+}
+.invaitation_banner .container{
+    flex-basis: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.invaitation_banner .container .text_box{
+    flex-basis: 75%;
+    text-align: center;
+}
+.invaitation_banner .container .text_box .subTitle{
+    padding-bottom: 20px;
+    color: #5f6979;
+    font-family: "goldenbook";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.65;
+}
+.invaitation_banner .container .text_box .Title{
+    margin: 30px;
+    color: #5f6979;
+    font-family: "goldenbook";
+    font-size: 32px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.65;
+}
+.invaitation_banner .container .text_box .details_box{
+    margin: 50px 0;
+}
+.invaitation_banner .container .text_box .details_box p{
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #444e5a;
+    font-family: "Goldenbook";
+}
+/* Custom Wedding Invaitation Part */
+
+
+/* Custom Wedding Image Text Start */
+.customImage_text{
+    /* background-color: #568bcc57; */
+    padding: 30px 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.customImage_text .container{
+    flex-basis: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.customImage_text .container .custom_textBox{
+    flex-basis: 50%;
+    background-color: #dfdfdf70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    text-align: center;
+}
+.customImage_text .container .custom_textBox .Title{
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    line-height: 1.65;
+    font-weight: 400;
+}
+.customImage_text .container .custom_textBox hr{
+    border-top: 2px solid rgb(221, 221, 221);
+    width: 100%;
+}
+.customImage_text .container .custom_textBox p{
+    line-height: 28px;
+    font-size: 20px;
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-weight: 400;
+    padding: 10px 0;
+}
+.customImage_text .container .custom_textBox .custom_btn{
+    margin-top: 60px;
+}
+.customImage_text .container .custom_textBox .custom_btn a{
+    text-decoration: none;
+    display: block;
+    font-family: "Goldenbook";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.65;
+    color: #5f6979;
+    padding: 12px 25px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px  solid #5f6979;
+    text-align: center;
+}
+.customImage_text .container .custom_textBox .custom_btn a:hover{
+    background-color: #5f6979;
+    color: #fff;
+}
+.customImage_text .container .custom_imgBox{
+    flex-basis: 50%;
+}
+.customImage_text .container .custom_imgBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Custom Wedding Image Text End */
+
+/* Custom Wedding Gallery Start  */
+.customGallery_wedding{
+    padding: 70px 0px;
+}
+.customGallery_wedding .container_fluid{
+    text-align: center;
+}
+.customGallery_wedding .container_fluid .Title{
+    color: #5f6979;
+    font-family: "Goldenbook";
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.65;
+    padding-bottom: 15px;
+}
+.customGallery_wedding .container_fluid hr{
+    width:100%;
+    border-top: 2px solid #ddd;
+}
+
+
+.customGallery_wedding .gallery_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.customGallery_wedding .gallery_bottom .gallery_details{
+    flex-basis: 50%;
+    text-align: center;
+}
+.customGallery_wedding .gallery_bottom .gallery_details p{
+    line-height: 28px;
+    font-size: 20px;
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.customGallery_wedding .gallery_main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.customGallery_wedding .gallery_main .gallery_imgs{
+    padding-top: 20px;
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.customGallery_wedding .gallery_main .gallery_imgs .gallery_item{
+   flex-basis: 25%;
+   padding: 20px;
+}
+.customGallery_wedding .gallery_main .gallery_imgs .gallery_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.customGallery_wedding .gallery_main .gallery_imgs .gallery_item img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 3s;
+    box-shadow: 1px -1px 10px 2px #ddd;
+}
+/* Custom Wedding Gallery End  */
+
+/* Investment Banner Part start */
+
+.invest_banner .container_fluid{
+    background-color: #ddd;
+    background-image: url(../img/investment_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.invest_banner .container_fluid .overlay{
+    background-color: #f3f3f33b;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.invest_banner .container_fluid .overlay .container{
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.invest_banner .container_fluid .overlay .container .content_box{
+    flex-basis: 60%;
+    padding: 12% 0 8%;
+}
+.invest_banner .container_fluid .overlay .container .content_box .Title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.815);
+    font-family: "Goldenbook";
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.65;
+    padding-bottom: 15px;
+}
+.invest_banner .container_fluid .overlay .container .content_box .content_details{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.invest_banner .container_fluid .overlay .container .content_box .content_details p{
+    color: #5f6979;
+    font-family: "goldenbook";
+    font-size: 24px;
+    line-height: 1.25em;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 0;
+}
+/* Investment Banner Part start */
+
+/* OUR CLIENT REVIEWS Start */
+.client_review{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.client_review .container{
+    flex-basis: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.client_review .container .custom_textBox{
+    flex-basis: 50%;
+    background-color: #dfdfdf70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+    text-align: center;
+}
+.client_review .container .custom_textBox .Title{
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    line-height: 1.65;
+    font-weight: 400;
+}
+.client_review .container .custom_textBox hr{
+    border-top: 2px solid rgb(221, 221, 221);
+    width: 100%;
+}
+.client_review .container .custom_textBox p{
+    line-height: 28px;
+    font-size: 21px;
+    color: #444e5a;
+    font-family: "goldenbook";
+    font-weight: 400;
+    padding: 10px 0;
+}
+.client_review .container .custom_textBox p span a{
+    text-decoration: none;
+    font-style: italic;
+    color: #444e5a;
+    font-weight: 300;
+}
+.client_review .container .custom_imgBox{
+    flex-basis: 50%;
+}
+.client_review .container .custom_imgBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* OUR CLIENT REVIEWS End */
